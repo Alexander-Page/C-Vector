@@ -1,3 +1,6 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -49,3 +52,4 @@ void push(struct c_vector *vec, int val)
     }
     vec->endptr++;
 }
+#endif
